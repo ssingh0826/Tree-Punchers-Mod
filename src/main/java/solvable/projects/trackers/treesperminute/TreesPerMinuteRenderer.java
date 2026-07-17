@@ -6,7 +6,8 @@ import net.minecraft.client.gui.Font;
 import net.minecraft.resources.Identifier;
 
 import solvable.projects.TreePuncherMod;
-import solvable.projects.hud.HudEditor;
+// todo stuff
+// import solvable.projects.hud.HudEditor;
 
 public class TreesPerMinuteRenderer {
     private static final Identifier ID = Identifier.tryParse("treepunchermod:trees_per_minute_tracker");
@@ -22,6 +23,8 @@ public class TreesPerMinuteRenderer {
             if (client.player == null) return;
 
             if (!tracker.isActive()) return;
+/*
+todo again
 
             if (!HudEditor.isEditing()) {
                 Font renderer = Minecraft.getInstance().font;
@@ -40,6 +43,7 @@ public class TreesPerMinuteRenderer {
                 guiGraphics.text(renderer, text, x, y, TEXT_COLOR, false);
             }
             else {
+ */
                 Font renderer = Minecraft.getInstance().font;
 
                 String text = "Trees per Minute: 9001";
@@ -54,7 +58,7 @@ public class TreesPerMinuteRenderer {
                 guiGraphics.fill(x - padding, y - padding, x + width + padding, y + height + padding, BACKGROUND);
 
                 guiGraphics.text(renderer, text, x, y, TEXT_COLOR, false);
-            }
+            // }
         });
     }
 
