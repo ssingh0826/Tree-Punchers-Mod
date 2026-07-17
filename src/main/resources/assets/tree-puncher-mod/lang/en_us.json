@@ -1,0 +1,6 @@
+{
+  "text.config.config.title": "Tree Puncher Mod",
+
+  "text.config.config.option.tpmTracker": "Trees Per Minute Tracker",
+  "text.config.config.option.tpmTimeOutSeconds": "Timeout for Tracker in Seconds"
+}

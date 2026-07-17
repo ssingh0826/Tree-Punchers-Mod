@@ -1,17 +1,13 @@
 {
 	"schemaVersion": 1,
-	"id": "tree-puncher-mod",
+	"id": "treepunchermod",
 	"version": "${version}",
 	"name": "Tree Puncher Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A simple foraging mod for Hypixel Skyblock",
 	"authors": [
-		"Me!"
+		"Solvable"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
+	"license": "GNU LGPLv3",
 	"icon": "assets/tree-puncher-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -26,6 +22,15 @@
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~26.1.2",
 		"java": ">=25",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"owo": "0.13.0+26.1"
+	},
+	"custom": {
+		"modmenu": {
+			"icon": "assets/tree-puncher-mod/icon.png",
+			"links": {
+				"modmenu.discord": "https://discord.gg/7bTNgCyD5z"
+			}
+		}
 	}
 }
